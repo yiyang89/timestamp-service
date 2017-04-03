@@ -1,5 +1,4 @@
 var fs = require('fs');
-var path = require('path');
 
 // Returns {"unix": [unixtime], "natural": [naturaltime]}
 module.exports.process = function(str, callback) {

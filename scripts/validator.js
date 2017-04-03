@@ -1,5 +1,3 @@
-var fs = require('fs');
-
 // Returns {"unix": [unixtime], "natural": [naturaltime]}
 module.exports.process = function(str, callback) {
   var returnObject = {"unix":null, "natural": null};
